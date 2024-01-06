@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 4rem;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* main-container */
+.main-container{
+    height: 43rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: cornflowerblue;
+}
+
+/* left-container */
+
+
+.left-container{
+    height: 100%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin: 0.5rem;
+}
+input{
+    width: 80%;
+    height: 3rem;
+    padding:0rem 0rem 0rem 1rem;
+    border-radius:0.5rem;
+    border: none;
+}
+textarea{
+    width: 80%;
+    height: 70%;
+    margin:0.7rem;
+    padding:1rem 0rem 0rem 1rem;
+    resize: none;
+    border-radius:0.5rem;
+    border: none;
+}
+select{
+    width: 83.5%;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+    border-radius:0.5rem;
+    border: none;
+}
+button{
+    width: 50%;
+    padding: 0.7rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: darkblue;
+}
+button:hover{
+    background-color: skyblue;
+    color: black;
+}
+
+/* right Container */
+
+.right-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 90%;
+    height: 10%;
+    margin: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.adding-container{
+    width: 90%;
+    height: 80%;
+    margin: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslateblue;
+}
+.todolist{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.todolist-items{
+    color: aliceblue;
+    margin-left: 2.5rem;
+}
+.todolist li:nth-child(1){
+    width: 20%;
+    margin-left: 1rem;
+}
+.todolist li:nth-child(2){
+    width: 30%;
+    margin-right:20rem;
+   
+}
+.todolist li:nth-child(3){
+    width: 20%;
+    margin-left:1rem;
+}
+.todolist li:nth-child(4){
+    width: 20%;
+    margin-right:1rem;
+}
+.btns{
+    width: 100%;
+    background-color: greenyellow;
+    color: black;
+}
+.Done{
+    width: 100%;
+}
+
